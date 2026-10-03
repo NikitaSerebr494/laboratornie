@@ -1,4 +1,4 @@
-price=int(input('Введите цену одной тетради:'))
-count=int(input('Введите количество тетрадей:'))
-paid=int(input('Введите внесенную сумму:'))
-print('Стоимость тетрадей:'+str(count*price)+'. Сдача:'+str(paid-count*price)+'.')
+money=int(input('Цена одной тетради:'))
+kolvo=int(input('Количество тетрадей:'))
+money1=int(input('Сумма:'))
+print('Общая стоимость:'+str(colvo*money)+'. Сдача:'+str(money1-colvo*money)+'.')
