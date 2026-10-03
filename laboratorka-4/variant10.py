@@ -1,8 +1,8 @@
-k=0
-sm=0
+a=0
+c=0
 for i in range(int(input())):
-    a=int(input())
-    if a>=10:
-        k+=1
-        sm+=a
-print(k, sm)
+   b=int(input())
+if b>=10:
+      a+=1
+    c+=b
+print(a, c)
